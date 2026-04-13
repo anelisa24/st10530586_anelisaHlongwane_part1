@@ -3,6 +3,8 @@
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
+
+
 public class LoginSystem {
 
     static Scanner input = new Scanner(System.in);
@@ -64,7 +66,7 @@ public class LoginSystem {
         // USERNAME 
         String username;
         while (true) {
-            System.out.print("Enter Username (_ and max 5 chars): ");
+            System.out.println("Enter your Username (and must contain a '_' and a max of 5 chars): ");
             username = input.nextLine();
 
             if (checkUserName(username)) break;
